@@ -27,7 +27,7 @@ This search yields over 1,000 relevant results, including popular and scholarly 
 On the search results page, you can click the titles of the articles to access the abstracts and contents. The publishers and publication dates can be useful. For instance, since you are looking for sources that cover consumer’s perception of using bST to increase milk production, an article published by _Consumers' Research Magazine_ or _FDA Consumer_ would provide such a perspective. If you are interested in reading about the topic with recent research, looking at articles published in the last few years would be appropriate; or, you can look at articles published in a span of ten or 20 years if you are interested in research from a more holistic perspective of the topic and how the public opinion or knowledge on the issue has changed over time.
 
 {% capture text %}Feel free to conduct a [CRAAP test](https://libguides.uidaho.edu/c.php?g=363237&p=2453602){:target="_blank" rel="noopener"} (currency, relevance, authority, accuracy and purpose) to evaluate the sources based on various criteria.{% endcapture %}
-{% include alert.md text=text color="warning" %}
+{% include alert.html text=text color="warning" %}
 
 #### Subjects Search
 
