@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Text Analysis | Digital Geolocation Tools for Archival Research</title>
+<meta name="description" content="Presentation for Fall 2024 Information Landscapes Series">
+<meta name="keywords" content="">
+<meta name="author" content="Andrew Weymouth">
+<link rel="icon" type="image/png" href="http://localhost:4000/geolocation/favicon.png">
+
+<!--
+  _      __         __        __           ______               __     __     
+ | | /| / /__  ____/ /__ ___ / /  ___  ___/_  __/__ __ _  ___  / /__ _/ /____ 
+ | |/ |/ / _ \/ __/  '_/(_-</ _ \/ _ \/ _ \/ / / -_)  ' \/ _ \/ / _ `/ __/ -_)
+ |__/|__/\___/_/ /_/\_\/___/_//_/\___/ .__/_/  \__/_/_/_/ .__/_/\_,_/\__/\__/ 
+                                    /_/                /_/                    
+
+    built with workshop-template-b, evanwill, https://github.com/evanwill/workshop-template-b
+--> 
+   
+<!-- Open Graph meta -->
+<meta property="og:title" content="Text Analysis | Digital Geolocation Tools for Archival Research" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Presentation for Fall 2024 Information Landscapes Series" />
+<meta property="og:image" content="http://localhost:4000/geolocation/images/banner.gif" />
+<meta property="og:site_name" content="Digital Geolocation Tools for Archival Research" />
+<meta property="og:url" content="http://localhost:4000/geolocation/content/2_text.html" />
+<meta property="og:locale" content="en_US" />
+<!-- schema.org JSON-LD -->
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Text Analysis | Digital Geolocation Tools for Archival Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Presentation for Fall 2024 Information Landscapes Series", "image": "http://localhost:4000/geolocation/images/banner.gif", "url":"http://localhost:4000/geolocation/content/2_text.html" }</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/geolocation/assets/lib/spotlight.min.css">
+<link rel="stylesheet" href="/geolocation/assets/lib/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="/geolocation/assets/css/styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+
+<!-- Last build date: 2024-10-21 -->
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    <header>
+    <nav class="navbar navbar-light pb-lg-0 border-bottom" style="background-color: #F0F8FF;">
+    <div class="container">
+        <h1 class="navbar-brand" style="white-space: normal;"><a href="/geolocation/">
+            
+            Digital Geolocation Tools for Archival Research
+        </a></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+            <ul class="navbar-nav nav-tabs justify-content-end">
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/geolocation/content/1_intro.html">
+                        
+                            Introduction
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link active p-3 h-100" href="/geolocation/content/2_text.html">
+                        
+                            Text Analysis
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/geolocation/content/3_reverse.html">
+                        
+                            Reverse Image Searching
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/geolocation/content/4_landmark.html">
+                        
+                            Landmark Identification
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/geolocation/content/5_aerial.html">
+                        
+                            Aerial Timelapse
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/geolocation/content/6_conclusion.html">
+                        
+                            Conclusion
+                        
+                    </a>
+                </li>
+            
+            </ul>  
+        </div>
+    </div>
+</nav>
+
+    </header>
+
+    <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
+      
+      <div class="container my-4">
+<h1>Text Analysis</h1>
+
+<div class="ms-5 mb-3 border-bottom">
+    </div>
+    
+<div class="my-4">
+
+<p><strong>Maybe the simplest place to begin</strong> is use the text provided within the image you are attempting to locate. Within the image, this could be building names, signs or advertisements or handwritten captions if you are working with a scrapbook. Even if only one in two hundred photos is labeled, that small amount of information is enough to begin making connections. You can try searching these terms (using Boolean quotes for exact phrases) in Google, but you’ll usually find that the algorithm is too broad for this type of historical research. Instead, try using the <a href="https://www.lib.uidaho.edu/find/newspapers.html" target="_blank" rel="noopener">Newsbank newspaper resource</a> available to you through the University, and refine results by adding time and location perameters.</p>
+
+<p class="h6 shadow-sm p-3 about-nav sticky-top" style="background-color: #F0F8FF;">
+    Contents: <a class="mx-2" href="#first-example">First Example</a> | <a class="mx-2" href="#second-example">Second Example</a> | <a class="mx-2" href="#third-example">Third Example</a> | <a class="mx-2" href="#fourth-example">Fourth Example</a> 
+</p>
+
+<p><br /></p>
+
+<p>The examples I will be using for this presentation are from a scrapbook in our Special Collections titled <a href="https://archiveswest.orbiscascade.org/ark:80444/xv928424" target="_blank" rel="noopener">Unidentified Family Album, 1920-1939</a> which I will use to illustrate the strengths and limitations of digital geolocation tools. Let’s go through a few methods for identifying locations through text elements:</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<h2 id="first-example">First Example</h2>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_06.jpg"><img data-src="/geolocation/images/geo_06.jpg" alt="Street scene of a parade with a float of a boat in a downtown area with a crowd standing on the sidewalk and a sign for Raymond Cafe near awnings." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Photograph PG070-18-02 from Unidentified Family Album and detail, 1920-1939, Courtesy U of I Special Collections</figcaption></figure>
+
+<p>Searching for “Raymond Cafe” and narrowing it down by adding “Idaho,” we discover that this photo was taken on Main Street in Lewiston, and that the cafe’s owner was a prominent figure in <a href="https://infoweb-newsbank-com.uidaho.idm.oclc.org/apps/news/document-view?p=AMNEWS&amp;docref=news/156BF6F9304573D0&amp;f=basic" target="_blank" rel="noopener">Idaho’s Chinese American history</a>. By examining the float next to the building, we can also determine that the photo was captured during the now-defunct <a href="https://infoweb-newsbank-com.uidaho.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&amp;rft_id=info%3Asid/infoweb.newsbank.com&amp;svc_dat=AMNEWS&amp;req_dat=29250C9388694CD885C6DCB22A43B157&amp;rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&amp;rft_dat=document_id%3Aimage%252Fv2%253A114CF38DF1A90B10%2540EANX-1196094F5699C058%25402420298-1196095018949658%254023-1196095416EB10C0%2540Society/hlterms%3A%2522lewiston%2522%2520%2522rose%2520parade%2522%2520" target="_blank" rel="noopener">Rose Parade</a>, which took place annually in mid-June.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_09.jpg"><img data-src="/geolocation/images/geo_09.jpg" alt="Two figures riding in an early twentieth century automobile covered in flowers" style="width:75%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Two participants in the Lewiston Rose Parade, June 14, 1914. Courtesy Lewiston Tribune.</figcaption></figure>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<h2 id="second-example">Second Example</h2>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_10.jpg"><img data-src="/geolocation/images/geo_10.jpg" alt="Overhead view of a small city with mountains in the background." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Photograph PG070-66-01 from Unidentified Family Album and detail, 1920-1939, Courtesy U of I Special Collections</figcaption></figure>
+
+<p>While there are actually a few structures here that are identifiable through reverse image searching, we can also identify this location with text. Zooming in on this little storefront, we can make out the business name <strong>“Butterfield-Elder Implement Company,”</strong> which appears in the article <a href="https://infoweb-newsbank-com.uidaho.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&amp;rft_id=info%3Asid/infoweb.newsbank.com&amp;svc_dat=AMNEWS&amp;req_dat=29250C9388694CD885C6DCB22A43B157&amp;rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&amp;rft_dat=document_id%3Aimage%252Fv2%253A114CF38DF1A90B10%2540EANX-118B902C32A7E928%25402417431-118B902C40943180%25400-118B902CA0244198%2540Federal%252BBuildings%252Bin%252BNorth%252BIdaho.%252BBids%252BOpened%252Bfor%252BSites%252Bin%252BLewiston%252Band%252BMoscow/hlterms%3A" target="_blank" rel="noopener">Federal Buildings of North Idaho</a> as a business located in Moscow. Given the specificity of the name and its proximity to other photos in the collection, we can confidently conclude that this is an overhead shot of Moscow.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_12.jpg"><img data-src="/geolocation/images/geo_12.jpg" alt="Digitized newspaper titled Federal Buildings in North Idaho" style="width:50%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Newspaper clipping, August 8, 1906. Courtesy Idaho Statesman</figcaption></figure>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<h2 id="third-example">Third Example</h2>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_13.jpg"><img data-src="/geolocation/images/geo_13.jpg" alt="Shipping vessel docked in nondescript area." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Photograph PG070-14-01 from Unidentified Family Album and detail, 1920-1939, Courtesy U of I Special Collections</figcaption></figure>
+
+<p>In geolocation, it is important to search for alternate spellings, especially in the case of non-english languages which may be “simplified” in english speaking newspapers. In this example, the Kaga Maru steamship appears to be one word on the ship but is written as two newspaper accounts, where it is advertised as docking at many points along China, Japan and Southeast Asia but <a href="https://infoweb-newsbank-com.uidaho.idm.oclc.org/apps/news/openurl?ctx_ver=z39.88-2004&amp;rft_id=info%3Asid/infoweb.newsbank.com&amp;svc_dat=AMNEWS&amp;req_dat=29250C9388694CD885C6DCB22A43B157&amp;rft_val_format=info%3Aofi/fmt%3Akev%3Amtx%3Actx&amp;rft_dat=document_id%3Aimage%252Fv2%253A11A73E5827618330%2540EANX-12383880D91EE880%25402415590-1231FC62D3710918%254010-12D9CD597396AA40%2540Advertisement/hlterms%3A" target="_blank" rel="noopener">connected only stateside in Seattle</a>. Given the geographic footprint of the other photos in this scrapbook and the proximity of the photo with other images that resemble the city, we can be fairly confident that is where this was taken.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_15.jpg"><img data-src="/geolocation/images/geo_15.jpg" alt="Digitized newspaper classified ads." style="width:50%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Newspaper clipping, July 24, 1901, Courtesy The Oregonian</figcaption></figure>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<h2 id="fourth-example">Fourth Example</h2>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_16.jpg"><img data-src="/geolocation/images/geo_16.jpg" alt="Shipping vessel docked in nondescript area." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Photograph PG070-14-01 from Unidentified Family Album and detail, 1920-1939, Courtesy U of I Special Collections</figcaption></figure>
+
+<p><strong>Finally</strong>, the most easily identifiable of the bunch is certainly the <a href="https://en.wikipedia.org/wiki/Giant_Geyser" target="_blank" rel="noopener">Giant Geyser</a> of Yosemite National Park in Wyoming, but this does help establish the larger parameters of area that the scrapbook is likely to be within: From a base in Moscow, southeast to Yellowstone and northwest to Seattle.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/geolocation/images/geo_18.jpg"><img data-src="/geolocation/images/geo_18.jpg" alt="Map of the places we have identified so far with a blue rectangle connecting Moscow, Yellowstone, Lewiston and Seattle" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Geographic span of the places we have identified so far.</figcaption></figure>
+
+<div class="card mb-3">
+
+
+<div class="card-body">
+
+<div class="card-text">
+<p>Getting these relatively simple and definitive items out of the way helps reduce the size of our potential map as we move forward to the next geolocation method.</p>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+      
+    </main>
+
+    <footer class="site-footer bg-light-blue mt-auto">
+  <div class="container">
+    <nav class="mt-3 mb-4">
+      <ul class="nav nav-pills nav-fill">
+        
+        <li class="nav-item"><a class="nav-link h3" href="/geolocation/content/1_intro.html">Introduction</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3 active" href="/geolocation/content/2_text.html">Text Analysis</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/geolocation/content/3_reverse.html">Reverse Image Searching</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/geolocation/content/4_landmark.html">Landmark Identification</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/geolocation/content/5_aerial.html">Aerial Timelapse</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/geolocation/content/6_conclusion.html">Conclusion</a></li>
+        
+      </ul>
+    </nav>
+    <div class="row align-items-center pb-5">
+        <div id="footer-title" class="col-md">
+          <a class="h5" href="/geolocation/">Digital Geolocation Tools for Archival Research</a>
+          <br>
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0, </a> 2024 <a href="https://github.com/aweymo-ui">Andrew Weymouth</a>
+        </div>
+        <div class="col-md">
+          
+          <script>
+            function site_search() {
+              var query = document.getElementById("site-search").value;
+              window.open("/geolocation/search/index.html?q=" + encodeURIComponent(query), "_self" );
+            }
+          </script>
+          <form class="form-inline my-2 my-lg-0 float-end" role="search" id="search" onsubmit="site_search(); return false;">
+            <div class="input-group">
+              <input id="site-search" class="form-control" type="text" placeholder="Search" aria-label="Search box">
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/> </svg><span class="visually-hidden">submit search</span></button>
+              </div>
+            </div>
+          </form>
+          
+        </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Bootstrap JS bundle -->
+<script src="/geolocation/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other optional js -->
+
+
+<script src="/geolocation/assets/lib/lazysizes.min.js" async></script>
+<script src="/geolocation/assets/lib/spotlight.min.js" defer></script>
+<script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("scroll-to-top").style.display = "block";
+            document.getElementById("scroll-to-top").style.color = "#00448c"; // Change button color to #00448c
+        } else {
+            document.getElementById("scroll-to-top").style.display = "none";
+        }
+    }
+    // scroll to top function
+    function scrollToTop() {
+        window.scroll({
+            top: 0, 
+            left: 0, 
+            behavior: 'smooth'
+        });
+    }
+</script>
+<button id="scroll-to-top" type="button" class="btn btn-link btn-lg" onclick="scrollToTop();" title="Back to Top" aria-label="Back to Top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/> </svg>
+</button>
+
+
+
+  </body>
+
+</html>
