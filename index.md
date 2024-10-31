@@ -8,7 +8,7 @@ gallery: true
 
 * [slides](https://indd.adobe.com/view/dd70d5ef-b9b2-46cf-a866-60f524ff37e3){:target="_blank" rel="noopener"}
 
-This workshop, part of the 2024 University of Idaho _Information Landscapes_ series, will teach attendees how to identify archival images without location metadata using text analysis, reverse image search, landmark identification, and aerial time-lapse tools. The intention of this work is to introduce freely accessible tools and methods to researchers new to the discipline, providing a foundational understanding rather than comprehensive proficiency.
+Transcript and links of introductory presentation for students of the College of Agricultural & Life Sciences at University of Idaho by Library liaison Andrew Weymouth.
 
 {% include toc.html %}
 
