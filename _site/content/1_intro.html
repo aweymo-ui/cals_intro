@@ -134,6 +134,78 @@
 
 <p>Hello, my name is Andrew Weymouth and I have worked with the University of Idaho Library as the <a href="https://www.lib.uidaho.edu/about/people/aweymouth.html" target="_blank" rel="noopener">Digital Initiatives Librarian</a> in the <a href="https://cdil.lib.uidaho.edu/" target="_blank" rel="noopener">Center for Digital Inquiry and Learning </a>(CDIL) department since the fall of 2023. My work generally consists of creating and maintaining our digital collections, collaborating on projects with fellowship recipients, helping to rethink processes and introducing new digital scholarship tools to the department.</p>
 
+<h2 id="experience">Experience</h2>
+
+<p>I come from multi-disciplinary background, creating work about history using long form audio, video, animation and writing that compliments my current work in digital scholarship well. Before joining U of I, I worked as the Digital Media Editor for the Washington State focused digital encyclopedia, HistoryLink, where I helped add visual context to written material and ensured none of the material was copyright protected.</p>
+
+<h2 id="continuing-education">Continuing Education</h2>
+
+<p>Since moving from Tacoma to Moscow for this position, I have also become a student again, pursuing another master’s, this time in history with U of I, in addition to my master’s in library science that I have from University of Washington. While taking on this workload and working as an Assistant Professor has been a huge workload, it’s also helped me ground my work into creating practical applications for my digital scholarship work that can help students and researchers enhance their scholarship, such as <a href="https://aweymo-ui.github.io/python_obsidian/" target="_blank" rel="noopener">this workflow I’ve developed</a> on using Python tools to pull annotations from reading materials and visualize these elements in the note taking application Obsidian.</p>
+
+<h2 id="digital-scholarship-example">Digital Scholarship Example</h2>
+
+<p>One example of a digital scholarship project I’ve worked on using a database that we will talk more about in a moment is using <a href="https://www.webofscience.com/wos/woscc/basic-search" target="_blank" rel="noopener">Web of Science</a> to create Bibliometrics. This was prompted by my work creating a digital collection for the <a href="https://www.lib.uidaho.edu/digital/taylor-archive/" target="_blank" rel="noopener">U of I’s Taylor Wilderness Research Station</a>, a scientific refuge that students have been visiting in the remote Frank Church River of No Return Wilderness since the 1970s.</p>
+
+<p><strong>Bibliometrics</strong> are the use of statistical methods to analyze books, articles and other publications. The concept for this project was to see if there was some way to visualize all of the academic work that was produced by students and faculty members after conducting research at the station to convey a sense of the institution’s “research impact” over time.</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/cals_intro/images/taylor.jpg" title="Arlow Lewis, the caretaker of Taylor Ranch for several years, far left with glasses. Kneeling on left is Jim Bennett, then a PhD student working on bighorn sheep. Carol Bennett is in the yellow top, courtesy U of I Special Collections (DSC_0360)"><img data-src="/cals_intro/images/taylor.jpg" alt="Group of six standing in front of the Taylor Wilderness Research Station wearing clothes indicative of the late 1970s or early 1980s." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Arlow Lewis, the caretaker of Taylor Ranch for several years, far left with glasses. Kneeling on left is Jim Bennett, then a PhD student working on bighorn sheep. Carol Bennett is in the yellow top, courtesy U of I Special Collections (DSC_0360)</figcaption></figure>
+
+<h2 id="approach">Approach</h2>
+
+<p>This led me to consider some questions:</p>
+
+<ul>
+  <li>
+    <p><em>What does it mean for a paper to be the direct product of a specific place?</em></p>
+  </li>
+  <li>
+    <p><em>Does a work need to mention Taylor by name?</em></p>
+  </li>
+  <li>
+    <p><em>Are we only looking at research produced by U of I?</em></p>
+  </li>
+  <li>
+    <p><em>How long after the author visits Taylor is it still considered a product of that place?</em></p>
+  </li>
+</ul>
+
+<p>With this in mind, I decided to zoom out a bit and look at authors from U of I who were simply present in the archive, rather than specific titles.</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<h2 id="network-visualization">Network Visualization</h2>
+
+<p><strong>After creating an author name equation</strong> so I only needed to search for authors in seven batches of 100 names rather than a bleak 737 individual searches, this compiled Web of Science data was then exported in CSV format and then imported into <a href="https://www.vosviewer.com/">VOSviewer</a>, a Dutch, open-source network visualization platform with excellent documentation and an intuitive interface.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/cals_intro/images/citation.png" title="Visualization of citation impact over time of authors that contributed to work found in the Taylor Wilderness Research Station digital archive."><img data-src="/cals_intro/images/citation.png" alt="Data visualization of multi-colored nodes against a black background labeled with the names of authors." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Visualization of citation impact over time of authors that contributed to work found in the Taylor Wilderness Research Station digital archive.</figcaption></figure>
+
+<p>I wanted to analyze:</p>
+
+<ul>
+  <li>
+    <p><a href="https://www.lib.uidaho.edu/digital/taylor-archive/citation.html">future citations</a> of specific documents</p>
+  </li>
+  <li>
+    <p><a href="https://www.lib.uidaho.edu/digital/taylor-archive/coauthorship.html">co-authorship of papers</a>, and</p>
+  </li>
+  <li>
+    <p><a href="https://www.lib.uidaho.edu/digital/taylor-archive/keywords.html">fields of interest</a> over time.</p>
+  </li>
+</ul>
+
+<p>Once these three visualizations were completed, further customization was done adjusting node color to represent scientific discipline, size to represent the number of times the work has been cited, and arrangement according to when they were published. Selecting a node brings up a pane on the lower right hand corner of the screen which reveals more details on the title and, if available, creates a link to the research paper itself.</p>
+
+<p>These visualizations were then embedded into our CollectionBuilder site using the <a href="https://github.com/neesjanvaneck/VOSviewer-Online">VOS-Viewer Online</a> function. While these do take a short while to process the JSON data on loading, the bibliometrics add a colorful and interactive element that reduces a daunting amount of scholarly work into a single visualization.</p>
+
+<p>While you may be doing more straight-forward searching using Web of Science and similar scientific databases in your work, pulling more detailed data from these databases could possibly add an interesting visual element to your final projects!</p>
 
 
 </div>
