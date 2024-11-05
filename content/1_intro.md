@@ -10,9 +10,13 @@ Hello, my name is Andrew Weymouth and I have worked with the University of Idaho
 
 I come from multi-disciplinary background, creating work about history using long form audio, video, animation and writing that compliments my current work in digital scholarship well. Before joining U of I, I worked as the Digital Media Editor for the Washington State focused digital encyclopedia, HistoryLink, where I helped add visual context to written material and ensured none of the material was copyright protected. 
 
+{% include gallery-figure.html img="cccidaho85.gif" alt="Moving image of CCC workers throwing timber off of a trail" caption="Moving image I created manipulating elements of an archival photograph from the CCC Idaho collection as a part of the 2024 Poster Series" title="Moving image I created manipulating elements of an archival photograph from the CCC Idaho collection as a part of the 2024 Poster Series" width="100%" %}
+
 ## Continuing Education
 
 Since moving from Tacoma to Moscow for this position, I have also become a student again, pursuing another master's, this time in history here at U of I. While taking on this workload and working as an Assistant Professor has been a huge workload, it's also helped me ground my work into creating practical applications for my digital scholarship work that can help students and researchers enhance their scholarship, such as [this workflow I've developed](https://aweymo-ui.github.io/python_obsidian/){:target="_blank" rel="noopener"} on using Python tools to pull annotations from reading materials and visualize these elements in the note taking application Obsidian.  
+
+{% include gallery-figure.html img="py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Example of the graph output in Obsidian using the Python Annotation Extraction Tool mentioned above. The purple and blue nodes represent books for two different courses, the green nodes represent their tags and their proximity to one another represents their connections and contrasts." width="75%" %}
 
 ## Digital Scholarship Example
 
@@ -48,7 +52,7 @@ With this in mind, I decided to zoom out a bit and look at authors from U of I w
 
 **After creating an author name equation** so I only needed to search for authors in seven batches of 100 names rather than a bleak 737 individual searches, this compiled Web of Science data was then exported in CSV format and then imported into [VOSviewer](https://www.vosviewer.com/), a Dutch, open-source network visualization platform with excellent documentation and an intuitive interface.
 
-{% include gallery-figure.html img="citation.png" alt="Data visualization of multi-colored nodes against a black background labeled with the names of authors." caption="Visualization of citation impact over time of authors that contributed to work found in the Taylor Wilderness Research Station digital archive."  title="Visualization of citation impact over time of authors that contributed to work found in the Taylor Wilderness Research Station digital archive." width="100%" %}
+{% include gallery-figure.html img="biblio_01.gif" alt="Data visualization of multi-colored nodes against a black background labeled with the names of authors." caption="Visualization of citation impact over time of authors that contributed to work found in the Taylor Wilderness Research Station digital archive. Node size indicates the number of times the work has been cited, color and distance indicates groups formed by subject and keyword likeness and lines connecting nodes indicates shared citations."  title="Visualization of citation impact over time of authors that contributed to work found in the Taylor Wilderness Research Station digital archive. Node size indicates the number of times the work has been cited, color and distance indicates groups formed by subject and keyword likeness and lines connecting nodes indicates shared citations." width="100%" %}
 
 I wanted to analyze: 
 
