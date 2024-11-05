@@ -12,7 +12,7 @@ I come from multi-disciplinary background, creating work about history using lon
 
 ## Continuing Education
 
-Since moving from Tacoma to Moscow for this position, I have also become a student again, pursuing another master's, this time in history with U of I, in addition to my master's in library science that I have from University of Washington. While taking on this workload and working as an Assistant Professor has been a huge workload, it's also helped me ground my work into creating practical applications for my digital scholarship work that can help students and researchers enhance their scholarship, such as [this workflow I've developed](https://aweymo-ui.github.io/python_obsidian/){:target="_blank" rel="noopener"} on using Python tools to pull annotations from reading materials and visualize these elements in the note taking application Obsidian.  
+Since moving from Tacoma to Moscow for this position, I have also become a student again, pursuing another master's, this time in history here at U of I. While taking on this workload and working as an Assistant Professor has been a huge workload, it's also helped me ground my work into creating practical applications for my digital scholarship work that can help students and researchers enhance their scholarship, such as [this workflow I've developed](https://aweymo-ui.github.io/python_obsidian/){:target="_blank" rel="noopener"} on using Python tools to pull annotations from reading materials and visualize these elements in the note taking application Obsidian.  
 
 ## Digital Scholarship Example
 
