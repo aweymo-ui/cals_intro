@@ -7,34 +7,21 @@ gallery: true
 ## Databases
 In addition to [Academic Search Premier](https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph&defaultdb=f5h&defaultdb=ufh){:target="_blank" rel="noopener"} and [Web of Science](https://uidaho.idm.oclc.org/login?url=http://webofknowledge.com/UA){:target="_blank" rel="noopener"}, here are a few more useful databases to find scholarly articles on dairy science:
 - [Agricola (Ebsco)](https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=agr){:target="_blank" rel="noopener"}
-  - Over 4.8 million citations to journal articles, monographs, theses, patents, software, audio-visual materials, and technical reports. Covers agriculture, plant and animal sciences, forestry, entomology, soil and water resources, and food and nutrition.
+  - Over 4.8 million citations to journal articles, monographs and theses
 - [CAB Direct](https://uidaho.idm.oclc.org/login?url=https://www.cabdirect.org/){:target="_blank" rel="noopener"}
-  - Subjects covered include animal science; crop protection; plant science; parasitology; human and animal nutrition; natural resources and ecology; forestry, forest products and agroforesty; soil science; rural development, tourism and economics; food science and food products; biotechnology; and agricultural engineering. Some full-text content is available on the CABDirect platform. Sample search: *Consumption AND "pasteurized\* milk" AND "raw milk"*
+  - Subjects covered include animal science, crop protection and plant science
 - [AGRIS](http://agris.fao.org/){:target="_blank" rel="noopener"}
-  - AGRIS is an international cooperative system that provides citations to journal literature, theses, reports and other publications in the agricultural sciences. CARIS is an international cooperative system that provides citations to current research in all aspects of agriculture, forestry, fisheries, nutrition, rural development, agricultural economics, and topics in environmental and natural resource areas as they apply to agriculture.
+  - AGRIS is an international cooperative system that provides citations to journal literature, theses and reports 
 
-  ## Journals 
-The library subscribes to the following diary science journals, most of which are online. The articles published by these reputable journals are generally authoritative.
-- [Animal Feed Science and Technology](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/animal-feed-science-and-technology){:target="_blank" rel="noopener"}
-- [Animal Genetics](https://onlinelibrary-wiley-com.uidaho.idm.oclc.org/journal/13652052){:target="_blank" rel="noopener"}
-- [Applied Animal Behaviour Science](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/applied-animal-behaviour-science){:target="_blank" rel="noopener"}
 
 ## Journals 
-The library subscribes to the following diary science journals, most of which are online. The articles published by these reputable journals are generally authoritative.
+The library subscribes to the following diary science journals, most of which are online, including:
+
 - [Animal Feed Science and Technology](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/animal-feed-science-and-technology){:target="_blank" rel="noopener"}
 - [Animal Genetics](https://onlinelibrary-wiley-com.uidaho.idm.oclc.org/journal/13652052){:target="_blank" rel="noopener"}
 - [Applied Animal Behaviour Science](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/applied-animal-behaviour-science){:target="_blank" rel="noopener"}
-- [Dairy Foods](https://go-gale-com.uidaho.idm.oclc.org/ps/i.do?p=ITOF&u=mosc00780&id=GALE%7C3301&v=2.1&it=aboutJournal){:target="_blank" rel="noopener"}
-- [Dairy Herd Management](https://www-proquest-com.uidaho.idm.oclc.org/publication/6807?accountid=14551&OpenUrlRefId=info:xri/sid:primo){:target="_blank" rel="noopener"}
-- [Dairy Industries International](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/2vsn7u/alma992831060001851){:target="_blank" rel="noopener"}
-- [Dairy Science & Technology](https://www.dairy-journal.org/index.php?option=com_issues&task=multi&Itemid=39&lang=en_GB.utf8,+en_GB.UT){:target="_blank" rel="noopener"}
-- Hoard's Dairyman ([print](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/2vsn7u/alma996012804601851){:target="_blank" rel="noopener"}, [microform](https://alliance-uidaho.primo.exlibrisgroup.com/permalink/01ALLIANCE_UID/2vsn7u/alma995334201851){:target="_blank" rel="noopener"})
-- [International Dairy Journal](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/international-dairy-journal){:target="_blank" rel="noopener"}
-- [Journal of Animal Breeding and Genetics](https://onlinelibrary-wiley-com.uidaho.idm.oclc.org/journal/14390388){:target="_blank" rel="noopener"}
-- [Journal of Animal Science](https://academic-oup-com.uidaho.idm.oclc.org/jas){:target="_blank" rel="noopener"}
-- [Journal of Dairy Science](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/journal-of-dairy-science){:target="_blank" rel="noopener"}
-- [Journal of Food Science](https://onlinelibrary-wiley-com.uidaho.idm.oclc.org/journal/17503841){:target="_blank" rel="noopener"}
-- [Professional Animal Scientist](https://www-proquest-com.uidaho.idm.oclc.org/publication/27148?accountid=14551&OpenUrlRefId=info:xri/sid:primo){:target="_blank" rel="noopener"}
+
+And many more!
 
 ## Print Books
 One viable search strategy to find print books on a topic is stack browsing. That is to visit the library and locate the physical bookshelves to browse the book collections with a particular subject focus area using LC call number. For example, if you are interested in Dairy processing and Dairy products, you would want to look for call numbers that start with SF250.5-275. Other relevant call numbers include: 
@@ -90,7 +77,7 @@ One viable search strategy to find print books on a topic is stack browsing. Tha
 </html>
 {% capture text %}Use the [floor maps](https://www.lib.uidaho.edu/about/maps.html){:target="_blank" rel="noopener"} to locate the shelves that contain the specified call number groups.
 {% endcapture %}
-{% include alert.html text=text color="warning" %}
+{% include alert.html text=text color="light" %}
 
 ## Government Documents
 When searching the library catalog, you can filter the results by `Government Documents` under `Resource Type`. These documents are located on the library basement. You can click [this link](https://www.lib.uidaho.edu/find/govdocs/){:target="_blank" rel="noopener"} or email <a href = "mailto: rattebur@uidaho.edu">Rami Attebury</a> to learn more about how to access government documents. 
