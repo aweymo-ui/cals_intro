@@ -4,21 +4,15 @@ nav: Introduction
 gallery: true
 ---
 
+<br>
+
 Hello, my name is Andrew Weymouth and I have worked with the University of Idaho Library as the [Digital Initiatives Librarian](https://www.lib.uidaho.edu/about/people/aweymouth.html){:target="_blank" rel="noopener"} in the [Center for Digital Inquiry and Learning ](https://cdil.lib.uidaho.edu/){:target="_blank" rel="noopener"}(CDIL) department since the fall of 2023. My work generally consists of creating and maintaining our digital collections, collaborating on projects with fellowship recipients, helping to rethink processes and introducing new digital scholarship tools to the department.
 
-## Experience
+<br>
 
-I come from multi-disciplinary background, creating work about history using long form audio, video, animation and writing that compliments my current work in digital scholarship well. Before joining U of I, I worked as the Digital Media Editor for the Washington State focused digital encyclopedia, HistoryLink, where I helped add visual context to written material and ensured none of the material was copyright protected. 
+## Digital Scholarship Database Application
 
-{% include gallery-figure.html img="cccidaho85.gif" alt="Moving image of CCC workers throwing timber off of a trail" caption="Moving image I created manipulating elements of an archival photograph from the CCC Idaho collection as a part of the 2024 Poster Series" title="Moving image I created manipulating elements of an archival photograph from the CCC Idaho collection as a part of the 2024 Poster Series" width="100%" %}
-
-## Continuing Education
-
-Since moving from Tacoma to Moscow for this position, I have also become a student again, pursuing another master's, this time in history here at U of I. While taking on this workload and working as an Assistant Professor has been a huge workload, it's also helped me ground my work into creating practical applications for my digital scholarship work that can help students and researchers enhance their scholarship, such as [this workflow I've developed](https://aweymo-ui.github.io/python_obsidian/){:target="_blank" rel="noopener"} on using Python tools to pull annotations from reading materials and visualize these elements in the note taking application Obsidian.  
-
-{% include gallery-figure.html img="py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Example of the graph output in Obsidian using the Python Annotation Extraction Tool mentioned above. The purple and blue nodes represent books for two different courses, the green nodes represent their tags and their proximity to one another represents their connections and contrasts." width="75%" %}
-
-## Digital Scholarship Example
+<br>
 
 One example of a digital scholarship project I've worked on using a database that we will talk more about in a moment is using [Web of Science](https://www.webofscience.com/wos/woscc/basic-search){:target="_blank" rel="noopener"} to create Bibliometrics. This was prompted by my work creating a digital collection for the [U of I's Taylor Wilderness Research Station](https://www.lib.uidaho.edu/digital/taylor-archive/){:target="_blank" rel="noopener"}, a scientific refuge that students have been visiting in the remote Frank Church River of No Return Wilderness since the 1970s.
 
@@ -30,7 +24,11 @@ One example of a digital scholarship project I've worked on using a database tha
 
 {% include gallery-figure.html img="taylor.jpg" alt="Group of six standing in front of the Taylor Wilderness Research Station wearing clothes indicative of the late 1970s or early 1980s." caption="Arlow Lewis, the caretaker of Taylor Ranch for several years, far left with glasses. Kneeling on left is Jim Bennett, then a PhD student working on bighorn sheep. Carol Bennett is in the yellow top, courtesy U of I Special Collections (DSC_0360)" title="Arlow Lewis, the caretaker of Taylor Ranch for several years, far left with glasses. Kneeling on left is Jim Bennett, then a PhD student working on bighorn sheep. Carol Bennett is in the yellow top, courtesy U of I Special Collections (DSC_0360)" width="100%" %}
 
+<br>
+
 ## Approach
+
+<br>
 
 This led me to consider some questions: 
 
@@ -48,7 +46,11 @@ With this in mind, I decided to zoom out a bit and look at authors from U of I w
     <p class="symbol">&#10042;</p>
 </div>
 
+<br>
+
 ## Network Visualization
+
+<br>
 
 **After creating an author name equation** so I only needed to search for authors in seven batches of 100 names rather than a bleak 737 individual searches, this compiled Web of Science data was then exported in CSV format and then imported into [VOSviewer](https://www.vosviewer.com/), a Dutch, open-source network visualization platform with excellent documentation and an intuitive interface.
 
@@ -66,4 +68,13 @@ Once these three visualizations were completed, further customization was done a
 
 These visualizations were then embedded into our CollectionBuilder site using the [VOS-Viewer Online](https://github.com/neesjanvaneck/VOSviewer-Online) function. While these do take a short while to process the JSON data on loading, the bibliometrics add a colorful and interactive element that reduces a daunting amount of scholarly work into a single visualization.
 
-While you may be doing more straight-forward searching using Web of Science and similar scientific databases in your work, pulling more detailed data from these databases could possibly add an interesting visual element to your final projects!
+<br>
+
+## Goals
+
+<br>
+
+The intention of this workshop is to walk you through all of the resources the library has to offer, the best search strategies to use with them and end with some recommendations for how to store, annotate and preserve your research for future reference. While the previous example might be more complicated, I hope it illustrates how you can not only find research material with these databases, **but also generate research**. 
+
+<br>
+
