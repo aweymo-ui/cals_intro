@@ -4,6 +4,8 @@ nav: Additional Resources
 gallery: true
 ---
 
+<br>
+
 ## Databases
 In addition to [Academic Search Premier](https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=aph&defaultdb=f5h&defaultdb=ufh){:target="_blank" rel="noopener"} and [Web of Science](https://uidaho.idm.oclc.org/login?url=http://webofknowledge.com/UA){:target="_blank" rel="noopener"}, here are a few more useful databases to find scholarly articles on dairy science:
 - [Agricola (Ebsco)](https://uidaho.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb=agr){:target="_blank" rel="noopener"}
@@ -13,6 +15,9 @@ In addition to [Academic Search Premier](https://uidaho.idm.oclc.org/login?url=h
 - [AGRIS](http://agris.fao.org/){:target="_blank" rel="noopener"}
   - AGRIS is an international cooperative system that provides citations to journal literature, theses and reports 
 
+As well as **238 more databases** searchable on the library's [A-Z Databases resource](https://libguides.uidaho.edu/az/databases).
+
+<br>
 
 ## Journals 
 The library subscribes to the following diary science journals, most of which are online, including:
@@ -21,7 +26,9 @@ The library subscribes to the following diary science journals, most of which ar
 - [Animal Genetics](https://onlinelibrary-wiley-com.uidaho.idm.oclc.org/journal/13652052){:target="_blank" rel="noopener"}
 - [Applied Animal Behaviour Science](https://www-sciencedirect-com.uidaho.idm.oclc.org/journal/applied-animal-behaviour-science){:target="_blank" rel="noopener"}
 
-And many more!
+As well as **300,000 more peer reviewed journals** searchable on the library's [journal directory](https://www.lib.uidaho.edu/find/journals.html).
+
+<br>
 
 ## Print Books
 One viable search strategy to find print books on a topic is stack browsing. That is to visit the library and locate the physical bookshelves to browse the book collections with a particular subject focus area using LC call number. For example, if you are interested in Dairy processing and Dairy products, you would want to look for call numbers that start with SF250.5-275. Other relevant call numbers include: 
@@ -79,10 +86,14 @@ One viable search strategy to find print books on a topic is stack browsing. Tha
 {% endcapture %}
 {% include alert.html text=text color="light" %}
 
+<br>
+
 ## Government Documents
 When searching the library catalog, you can filter the results by `Government Documents` under `Resource Type`. These documents are located on the library basement. You can click [this link](https://www.lib.uidaho.edu/find/govdocs/){:target="_blank" rel="noopener"} or email <a href = "mailto: rattebur@uidaho.edu">Rami Attebury</a> to learn more about how to access government documents. 
 
 You can use Google to search for government documents as well. Add `site:gov` at the end of your keyword search terms will yield results from government webpages. For instance, if your topic is on **Contribution of dairy industry to greenhouse gases**, you can search for *dairy AND "greenhouse gas" site:gov*.
+
+<br>
 
 ## Data and Statistics 
 If you are looking for contextual background information and overview of issue at stake for your presentation, consider incorporating some data and statistics on production, consumption, price, or standards of dairy products:
@@ -95,14 +106,18 @@ If you are looking for contextual background information and overview of issue a
 - [USDA census of agriculture](https://www.nass.usda.gov/AgCensus/){:target="_blank" rel="noopener"}
 - [USDA National Agricultural Statistics Service](https://www.nass.usda.gov/index.php){:target="_blank" rel="noopener"}
 
-## Citation
-Remember to cite your sources and format them according to the reference style of either [Journal of Animal Science](https://academic.oup.com/jas/pages/General_Instructions){:target="_blank" rel="noopener"} or [Journal of Dairy Science](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/pb/assets/raw/Health%20Advance/journals/jods/JDS_Instruct_for_Contributors_SF.pdf){:target="_blank" rel="noopener"}. 
+<br>
 
-You may also consider using a citation manager (if you have never used one before) to cite your sources. A citation manager can be a time saver, and is incredibly useful if you are thinking about pursuing a master’s or doctoral degree in which considerable writing is expected. Check out the recording of library workshop on Citation Management with Zotero below if interested.
+## Citation
+
+I would recommend using a using a citation manager if you haven't considered it before. It is an incredibly helpful way to organize all of your research material, create and store annotations, generate bibliographies and then export this material for future preservation. Watch the following library workshop on Citation Management with Zotero below, or [visit my open educational resource on the platform](https://aweymo-ui.github.io/zotero_intro/) that will walk you through every step of the process.
 
 {% include video-embed.html youtubeid="yw1oe57SqzE" caption="Citation Management with Zotero" %}
 
-Finally. Please always feel free to reach out about any library resources I'll be discussing in this workshop at aweymouth@uidaho.edu! Also:
+Finally, please always feel free to reach out about any library resources I'll be discussing in this workshop at aweymouth@uidaho.edu! 
+
+Also:
+
 <div class="row justify-content-center">
   <div class="col-sm-6 mx-auto">
     <div class="card">

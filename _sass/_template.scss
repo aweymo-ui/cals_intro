@@ -8,6 +8,7 @@ body {
 @if variable-exists(link-color) {
     a {
         color: $link-color;
+        font-weight: bold; /* Added this line */
         @if variable-exists(text-color) {
             &:hover {
                 color: $text-color; 
@@ -24,38 +25,38 @@ body {
         .container{ max-width: $container-max }
     }
 }
-
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
-	padding:6px;
-	position: absolute;
-	top:-200px;
-	left:0px;
-	color:white;
-	border-right:1px solid white;
-	border-bottom:1px solid white;
-	border-bottom-right-radius:8px;
-	background:#BF1722;
-	-webkit-transition: top 1s ease-out;
+    padding:6px;
+    position: absolute;
+    top:-200px;
+    left:0px;
+    color:white;
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+    border-bottom-right-radius:8px;
+    background:#BF1722;
+    -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 100;
+    font-weight: bold; /* Added this line */
 }
 #skip-to-content a:focus {
-	position:absolute;
-	left:0px;
-	top:0px;
-	outline-color:transparent;	
-	-webkit-transition: top .1s ease-in;
+    position:absolute;
+    left:0px;
+    top:0px;
+    outline-color:transparent;	
+    -webkit-transition: top .1s ease-in;
     transition: top .1s ease-in;
 }
-
-/* remove link underline */ 
-a { text-decoration: none; }
-
+/* remove link underline and add bold */ 
+a { 
+    text-decoration: none; 
+    font-weight: bold; /* Added this line */
+}
 /* add decorative borders  */
 header {
     @if variable-exists(top-border) { border-top: solid 4px $top-border; }
-
     .nav-tabs {
         border-bottom: none;
         .nav-item { margin-bottom: -1px; }
@@ -66,6 +67,7 @@ footer {
     @if variable-exists(nav-pills) { .nav-pills .nav-link.active { background-color: $nav-pills; } }
     .nav-link { 
         color: rgba(0,0,0,.7);
+        font-weight: bold; /* Added this line */
         &.active { 
             color: rgba(0,0,0,.9);
         }
@@ -76,9 +78,11 @@ footer {
     }
 }
 #footer-title {
-    a { color: rgba(0,0,0,.9); }
+    a { 
+        color: rgba(0,0,0,.9);
+        font-weight: bold; /* Added this line */
+    }
 }
-
 /* scroll to top */
 #scroll-to-top {
     display: none; 
@@ -87,8 +91,8 @@ footer {
     right: 20px; 
     z-index: 99;
     font-size: 40px; 
+    font-weight: bold; /* Added this line */
 }
-
 /* bootstrap icons tweaks */
 .bi { 
     display: inline-block;
@@ -99,7 +103,6 @@ footer {
     height: 1em;
     vertical-align: -0.1em;
 }
-
 /* feature include tweaks */
 .feature-alert p:last-of-type { margin-bottom: 0; }
 @media (min-width: 768px) {
@@ -116,7 +119,6 @@ footer {
         width: 100%!important;
     }
 }
-
 /* code blocks */
 div.highlighter-rouge {
     background-color: #f8f8f8;
@@ -136,7 +138,6 @@ blockquote {
         margin-bottom: 0;
     }   
 }
-
 /* term highlighting */
 .term {
     font-size: 1.3rem;
