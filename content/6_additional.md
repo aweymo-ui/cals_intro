@@ -103,7 +103,7 @@ One viable search strategy to find print books on a topic is stack browsing. Tha
 
 When searching the library catalog, you can filter the results by `Government Documents` under `Resource Type`. These documents are located on the library basement. You can click [this link](https://www.lib.uidaho.edu/find/govdocs/){:target="_blank" rel="noopener"} or email <a href = "mailto: rattebur@uidaho.edu">Rami Attebury</a> to learn more about how to access government documents. 
 
-You can use Google to search for government documents as well. Add `site:gov` at the end of your keyword search terms will yield results from government webpages. For instance, if your topic is on **Contribution of dairy industry to greenhouse gases**, you can search for *dairy AND "greenhouse gas" site:gov*.
+You can use Google to search for government documents as well. Add `site:gov` at the end of your keyword search terms will yield results from government webpages. For instance, if your topic is on **Mediterranean Diet and Cognition**, you can search for [site:.gov "Mediterranean" "Diet" AND "Cognition"](https://www.google.com/search?q=site%3A.gov+%22Mediterranean%22+%22Diet%22+AND+%22Cognition%22&rlz=1C5GCCM_en&oq=site%3A.gov+%22Mediterranean%22+%22Diet%22+AND+%22Cognition%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEJMjk3MzZqMGo3qAIIsAIB8QVgXTlyu2C9ufEFYF05crtgvbk&sourceid=chrome&ie=UTF-8).
 
 <br>
 
@@ -170,6 +170,8 @@ Also:
     </div>
   </div>
 </div>
+
+<br>
 
 ## About the Author
 
