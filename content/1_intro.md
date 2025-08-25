@@ -10,7 +10,7 @@ gallery: true
 
 <br>
 
-{% include gallery-figure.html img="cals_15.jpg" alt="The library tower seen in autumn, highlighted in red" caption="The Library tower, highlighted in red" %}
+{% include gallery-figure.html img="cals_15.jpg" alt="The library tower in autumn" caption="The Library Tower in autumn" %}
 
 **To begin,**
 
@@ -42,7 +42,7 @@ The library can be a complicated and overwhelming place, please don’t be hesit
   </tr>
   <tr>
     <td style="border: 2px solid black; padding: 15px; vertical-align: top;">Ask anytime on our <a href="https://www.lib.uidaho.edu/help/chat.html">24/7 Chat Reference</a>.</td>
-    <td style="border: 2px solid black; padding: 15px; vertical-align: top;">Explore our<a href="https://www.lib.uidaho.edu/">website</a>.</td>
+    <td style="border: 2px solid black; padding: 15px; vertical-align: top;">Explore our <a href="https://www.lib.uidaho.edu/">website</a>.</td>
   </tr>
   <tr>
     <td style="border: 2px solid black; padding: 15px; vertical-align: top;"><a href="https://www.lib.uidaho.edu/services/rooms.html">Book a room</a> for your group meeting.</td>
