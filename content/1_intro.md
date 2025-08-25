@@ -74,7 +74,13 @@ These visualizations were then embedded into our CollectionBuilder site using th
 
 <br>
 
-The intention of this workshop is to walk you through all of the resources the library has to offer, the best search strategies to use with them and end with some recommendations for how to store, annotate and preserve your research for future reference. While the previous example might be more complicated, I hope it illustrates how you can not only find research material with these databases, **but also generate research**. 
+The intention of this workshop is to:
+
+- Walk you through an overview of all of the resources the library has to offer 
+- The most effective search strategies to use with them 
+- Conclude with some recommendations for how to store, annotate and preserve your research for future reference
+
+**While my above example might be a more complicated use of database searching than you will need for finding research materials**, I hope it illustrates how you can not only locate scholarly resources, **but also generate research**. 
 
 <br>
 

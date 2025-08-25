@@ -5,7 +5,7 @@ gallery: true
 ---
 <br>
 
-Academic Search Premier is a multi-disciplinary database that contains full-text versions of thousands of publications, including academic titles, popular magazines, and newspapers. 
+[Academic Search Premier](https://login.microsoftonline.com/common/DeviceAuthTls/reprocess){:target="_blank" rel="noopener"} is a multi-disciplinary database that contains full-text versions of thousands of publications, including academic titles, popular magazines, and newspapers. 
 
 {% include gallery-figure.html img="Screenshots-01.png" alt="Access Academic Search Premier" width="100%" %}
 
@@ -39,3 +39,5 @@ You can also refine searches using subjects, which are tags that indexers have a
 {% include gallery-figure.html img="cals_intro_05.jpg" alt="Subject filter result for Bovine Somatotropin" width="100%" %}
 
 Using the Subject Filter displayed above, you can refine your resources depending on your focus, whether that is nutrition, companies like Monsanto or organizations like the USDA. Experimenting with different combinations of subjects, keywords and boolean operators like implementing quotes for exact searches and "AND" "OR" operators will help you find the material you need faster.
+
+<br>

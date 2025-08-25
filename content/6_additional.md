@@ -1,8 +1,35 @@
 ---
-title: Additional Resources
-nav: Additional Resources
+title: Digital Collections and Additional Resources
+nav: Digital Collections and Additional Resources
 gallery: true
 ---
+
+<br>
+
+## U of I Digital Collections
+
+<br>
+
+{% include gallery-figure.html img="cals_intro_14.jpg" alt="Screen capture of the digital collections browse page" caption="Digital Collection Browse Page" width="100%" %}
+
+Of course I also need to promote the [digital collections](https://www.lib.uidaho.edu/digital/){:target="_blank" rel="noopener"} that I work on along with the rest of the folks in Digital Scholarship and Open Strategies in the library! Think of this collection as a very small portion of our special collections holdings at the university, but with materials that are fully accessible online, with lots of contextual metadata about each item's date, location, subject and authors. 
+
+All of the PDF files have a layer of transcribed Optical Character Recognition (OCR), so the contents of every archival document is keyword searchable within the [main collection search page](https://digital.lib.uidaho.edu/search?search_terms=Cognition%21diet){:target="_blank" rel="noopener"}. 
+
+{% include gallery-figure.html img="cals_intro_13.jpg" alt="Screen capture of the Digital Collections search page for a search of diet AND cognition" caption="Digital Collection Search Page" width="100%" %}
+
+For example, this search of "diet" AND "cognition" brings up a diverse amount of material from archival newspapers, scientific research collections and even an oral history transcript that could be used to add context to your projects. At the moment, we maintain **140 digital collections** containing nearly **80,000 documents, images, videos and audio files**. Some collections that might be on interest to CALS students in particular:
+
+- [Agricultural Experiment & UI Extension Publications](https://www.lib.uidaho.edu/digital/uiext/){:target="_blank" rel="noopener"}
+   - Primary sources for practical, research-based information on Idaho Agriculture, Forestry, Gardening, and Family and Consumer Sciences
+- [Idaho Waters Digital Library](https://www.lib.uidaho.edu/digital/iwdl/){:target="_blank" rel="noopener"}
+   - A collection of scientific and technical reports relating to water issues in key Idaho river basins
+- [Idaho Forest, Wildlife, and Range Experiment Station Collection](https://www.lib.uidaho.edu/digital/fwres/){:target="_blank" rel="noopener"}
+   - UI-led research on topics ranging from Idaho's forests and hydrology to rangeland, fisheries, and wildlife, published from 1954 to the present
+- [Rangeland Center Collection](https://www.lib.uidaho.edu/digital/rangecoll/){:target="_blank" rel="noopener"}
+   - A repository of information related to topics in rangeland ecology and management
+
+As well as the [Taylor Wilderness Research Station Archive](https://www.lib.uidaho.edu/digital/taylor-archive/){:target="_blank" rel="noopener"} mentioned at the beginning of this workshop, containing over 1000 scientific research papers produced at the refuge.
 
 <br>
 
