@@ -12,6 +12,10 @@ gallery: true
 
 {% include gallery-figure.html img="cals_15.jpg" alt="The library tower in autumn" caption="The Library Tower in autumn" %}
 
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
 **To begin,**
 
 - Have you been to the library building?
@@ -30,6 +34,10 @@ gallery: true
 **The big take away: [University of Idaho Librarians](https://www.lib.uidaho.edu/about/librarians.html){:target="_blank" rel="noopener"} are on campus to [help you!](https://www.lib.uidaho.edu/help/)**
 
 The library can be a complicated and overwhelming place, please don’t be hesitate to ask questions.
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
 
 <br>
 

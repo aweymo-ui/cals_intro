@@ -8,6 +8,10 @@ gallery: true
 
 **In addition to the online resources**, we also have a range of in-person resources available to you all as U of I students.
 
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
 <br>
 
 ## Events
@@ -30,6 +34,10 @@ We also just started hosting the long running **[Renfrew Colloquium](https://www
 
 **Keep track of all of our events at the library on our [calendar](https://libcal.uidaho.edu/calendar/workshops?cid=4884&t=d&d=0000-00-00&cal=4884&inc=0)!**
 
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
 <br>
 
 ## Physical Resources
@@ -44,6 +52,10 @@ There is also the **[Making, Innovating and Learning Laboratory](https://www.lib
 
 We also maintain an extensive **[academic archive](https://www.lib.uidaho.edu/special-collections/){:target="_blank" rel="noopener"}** at the U of I library that can be a valuable resource for primary documents to help make your work stronger and add historic contrast. You can search the archive at a collection (not item) level through this [Archives West portal](https://archiveswest.orbiscascade.org/search.php?r=idu&q=){:target="_blank" rel="noopener"} and, if you find something of interest, contact our excellent archivists at libspec@uidaho.edu with the details, who can schedule you a time to review the materials in person at the first floor meeting room. 
 
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
 I have recently collaborated with Special Collections on two CALS-related, [Gary Strong Fellowship](https://www.lib.uidaho.edu/special-collections/strong-fellowship.html) recipient projects on the [Plant, Soil, and Entomological Sciences Records](https://www.lib.uidaho.edu/digital/pses/){:target="_blank" rel="noopener"} and the [WWAMI Scrapbook](https://www.lib.uidaho.edu/digital/wwami/){:target="_blank" rel="noopener"} digital collections.  
 
 {% include gallery-figure.html img="pses_016_03.png" alt="collage of photos of jazz musicians in poster for the fellowship" caption="Yellow-striped armyworm from the student-led Plant, Soil, and Entomological Sciences Records as a part of the Gary Strong Fellowship" width="100%" %}
@@ -53,3 +65,9 @@ Which leads me to my corner of the library, the **CDIL**. Every year, we work wi
 {% include gallery-figure.html img="2025_berry_print_03.jpg" alt="collage of photos of jazz musicians in poster for the fellowship" caption="2025 Berry Fellowship Poster" width="100%" %}
 
 Every September 1st through 15th, the University of Idaho Library invites students from any discipline to apply for the Berry International Jazz Collections Fellowship. Each year, one student is selected to develop a creative research project using the Library’s International Jazz Collections, with past work ranging from oral histories and digital exhibits to archival showcases. The fellowship includes a $4,000 stipend, up to $500 in research support, and culminates with an exhibition at the Lionel Hampton Jazz Festival. 
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<br>
