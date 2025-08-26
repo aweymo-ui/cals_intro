@@ -28,8 +28,8 @@ For example, this search of "diet" AND "cognition" brings up a diverse amount of
    - UI-led research on topics ranging from Idaho's forests and hydrology to rangeland, fisheries, and wildlife, published from 1954 to the present
 - [Rangeland Center Collection](https://www.lib.uidaho.edu/digital/rangecoll/){:target="_blank" rel="noopener"}
    - A repository of information related to topics in rangeland ecology and management
-
-As well as the [Taylor Wilderness Research Station Archive](https://www.lib.uidaho.edu/digital/taylor-archive/){:target="_blank" rel="noopener"} mentioned at the beginning of this workshop, containing over 1000 scientific research papers produced at the refuge.
+- [Taylor Wilderness Research Station Archive](https://www.lib.uidaho.edu/digital/taylor-archive/){:target="_blank" rel="noopener"} 
+   - Contains over 1000 scientific research papers produced at the refuge.
 
 <br>
 
@@ -149,18 +149,12 @@ If you are looking for contextual background information and overview of issue a
 - [USDA National Agricultural Statistics Service](https://www.nass.usda.gov/index.php){:target="_blank" rel="noopener"}
 
 **For Iron and Fetal/Infant Neurodevelopment:**
-
-- [NICHD: Iron and Child Development Research](https://www.nichd.nih.gov/research/supported/iron-deficiency-anemia){:target="_blank" rel="noopener"}  
-- [CDC: Iron and Brain Development](https://www.cdc.gov/ncbddd/actearly/milestones/iron.html){:target="_blank" rel="noopener"}  
-- [WHO: Guideline on Iron Supplementation in Infants and Children](https://www.who.int/publications/i/item/9789241549523){:target="_blank" rel="noopener"}  
-- [UNICEF: Iron Deficiency and Early Childhood Development](https://www.unicef.org/nutrition/iron-deficiency){:target="_blank" rel="noopener"}  
+    
+- [WHO: Guideline on Iron Supplementation in Infants and Children](https://www.who.int/publications/i/item/9789241549523){:target="_blank" rel="noopener"}    
 - [NLM PubChem / NIH: Iron and Neurodevelopmental Outcomes Data](https://pubmed.ncbi.nlm.nih.gov/?term=iron+infant+neurodevelopment){:target="_blank" rel="noopener"}  
 
 **For Mediterranean Diet and Cognition**
-
-- [NIH National Institute on Aging: Mediterranean Diet and Cognitive Health](https://www.nia.nih.gov/news/mediterranean-diet-linked-lower-risk-dementia){:target="_blank" rel="noopener"}  
-- [Alzheimer’s Association: Diet and Brain Health Resources](https://www.alz.org/alzheimers-dementia/research_progress/prevention/diet){:target="_blank" rel="noopener"}  
-- [NIA: MIND and Mediterranean Diet Data](https://www.nia.nih.gov/news/mind-diet-associated-reduced-risk-alzheimers-disease){:target="_blank" rel="noopener"}  
+    
 - [Harvard T.H. Chan School of Public Health: Mediterranean Diet Research](https://www.hsph.harvard.edu/nutritionsource/healthy-weight/diet-reviews/mediterranean-diet/){:target="_blank" rel="noopener"}  
 - [WHO: Healthy Diet and Cognitive Function](https://www.who.int/news-room/fact-sheets/detail/healthy-diet){:target="_blank" rel="noopener"}  
 

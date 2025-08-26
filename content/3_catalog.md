@@ -45,3 +45,17 @@ You can filter to refine results many different ways, including `Full Text Onlin
 Though presentation may vary depending on the site, look for the **red and white PDF icon** that should send you to the download page.
 
 <br>
+
+## Search History
+
+<br>
+
+If you were previously able to find something you are currently having trouble recovering, as long as you are logged in, all of your searches are saved. 
+
+{% include gallery-figure.html img="cals_17.png" alt="Screen capture of dropdown after selecting your profile name on the top right of the catalog interface.." caption="Dropdown after selecting your profile name on the top right of the catalog" width="75%" %}
+
+To review, select your name in the top right corner of the catalog interface and select `saved searches` from the dropdown, where your results will be displayed chronologically from newest to oldest. The description of each search includes both the text as well as filters and attributes used.
+
+{% include gallery-figure.html img="cals_18.png" alt="Screen capture of search history along with the filters and attributes you used, sorted chronologically from newest to oldest." caption="Search history along with the filters and attributes you used, sorted chronologically from newest to oldest." width="75%" %}
+
+<br>
