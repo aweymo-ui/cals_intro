@@ -19,7 +19,7 @@ gallery: true
 **To begin,**
 
 - Have you been to the library building?
-- Have you visited the Library website?
+- Have you visited the library website?
 - Have you ever talked to a librarian (before today)?
 - Have you ever used the library's chat help?
 
