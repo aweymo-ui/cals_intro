@@ -62,10 +62,6 @@ I have recently collaborated with Special Collections on two CALS-related, [Gary
 
 Which leads me to my corner of the library, the **CDIL**. Every year, we work with undergraduate, graduate and faculty recipients of the [CDIL and Berry Fellowships](https://cdil.lib.uidaho.edu/fellowships/){:target="_blank" rel="noopener"}, and I would highly encourage you to apply this year if you are interested in building a site to help enrich your research and develop your technical skills! 
 
-{% include gallery-figure.html img="2025_berry_print_03.jpg" alt="collage of photos of jazz musicians in poster for the fellowship" caption="2025 Berry Fellowship Poster" width="100%" %}
-
-Every September 1st through 15th, the University of Idaho Library invites students from any discipline to apply for the Berry International Jazz Collections Fellowship. Each year, one student is selected to develop a creative research project using the Library’s International Jazz Collections, with past work ranging from oral histories and digital exhibits to archival showcases. The fellowship includes a $4,000 stipend, up to $500 in research support, and culminates with an exhibition at the Lionel Hampton Jazz Festival. 
-
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
 </div>
